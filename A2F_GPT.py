@@ -72,10 +72,6 @@ def ask_chatGPT(user_question):
         # Inputed my chat data to chatGPT and asked to write a desctiption of how I talk
 		'content': 'Emulate a casual and friendly conversational style with short, punchy sentences and a touch of enthusiasm and expressiveness. Utilize repeated letters for emphasis and convey emotions through tone of voice. Employ informal language and abbreviations. Keep messages brief, maximum 3 sentences, yet polite, often including expressions of gratitude and acknowledgment of others messages. Maintain an upbeat and easygoing tone throughout interactions.',
 		},
-        # Could not do this as openAI does not allow it. chatGPT refuses it 
-        #{'role': 'user',
-		#'content': 'Your name is Eunah 2024',
-		#},
 	]
     
     gpt_response = client.chat.completions.create(
