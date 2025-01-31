@@ -14,18 +14,40 @@ Using ChatGPT, Speach Recognition and Google Text to Speech (But will be replace
 
 ## How to run
 
-1. Open the Audio2Face from Omniverse & open the character that has Streaming pipeline ready.
-2. In command promt, while your virtual environment is activated, set your OpenAI key and endpoint.
+1. Set up Virtual Environment
+
+```
+cd to/your/file/location
+virtualenv venv
+venv\Script\activate
+```
+
+2. Install requirements
+
+```
+pip install -r requirements.txt
+```
+
+3. Install relevent dependancues
+
+```
+pip install pandas, SpeechRecognition, gTTS, pydub, scipy, google-cloud, google-cloud-vision, protobuf==3.20.1, soundfile, openai, pyaudio
+
+```
+
+4. Open the Audio2Face from Omniverse & open the character that has Streaming pipeline ready.
+
+5. In command promt, while your virtual environment is activated, set your OpenAI key and endpoint.
 
 ```
 set AZURE_OPENAI_KEY=your_key_here
 set AZURE_OPENAI_ENDPOINT=your_endpoint_here
 ```
 
-3. Run the code
+6. Run the code
 
 ```
 python A2F_GPT.py
 ```
 
-4. Once the commend prompt says "Say something"
+7. Once the commend prompt says "Say something", start your conversation
