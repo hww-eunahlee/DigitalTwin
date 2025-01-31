@@ -36,8 +36,10 @@ pip install pandas, SpeechRecognition, gTTS, pydub, scipy, google-cloud, google-
 ```
 
 4. Open the Audio2Face from Omniverse & open the character that has Streaming pipeline ready.
+![image](https://github.com/user-attachments/assets/141617be-38b7-4b24-ab41-b948ceed85cd)
+[NVIDIA DOCUMENTATION](https://docs.omniverse.nvidia.com/audio2face/latest/user-manual/audio2face-tool/streaming-audio-player.html)
 
-5. In command promt, while your virtual environment is activated, set your OpenAI key and endpoint.
+6. In command promt, while your virtual environment is activated, set your OpenAI key and endpoint.
 
 ```
 set AZURE_OPENAI_KEY=your_key_here
